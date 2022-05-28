@@ -103,11 +103,8 @@ def send_mail():
         output = cur1.fetchone()
         (name,) = output
         cur2 = conn.cursor()
-        cur2.execute("insert into report(id,name,date,time,status) VALUES (%s,%s,%s,%s,%s)", (id,
-                                                                                              name,
-                                                                                              date,
-                                                                                              time,
-                                                                                              status))
+        cur2.execute("insert into report(id,name,date,time,status) VALUES (%s,%s,%s,%s,%s)", (id,name,date,time,status))
+                                                                                             
         conn.commit()
         conn.close()
         print("Attendance for absent staffs has been recorded successfully")
@@ -124,10 +121,10 @@ def send_mail():
 
     manager_email = get_manager_email()
     msg = EmailMessage()
-    msg['Subject'] = 'Attendance Details'
+    msg['Subject'] = 'Attendance Details of Today'
     msg['From'] = 'enter your email'
     msg['To'] = manager_email
-    msg.set_content('Attendance Report Attached')
+    msg.set_content('Attendance Report')
 
     csv_name = generate_attendance_sheet()
     with open(csv_name,'rb') as f:

@@ -45,7 +45,7 @@ Run the Following commands on anaconda prompt
 
 ![login page](https://github.com/shivanisin02/Employee-Attendence-Management/blob/master/screenshots/login_page.jpg?raw=true)
 
-### Mangement page
+### Management page
 #### This is the main page of application, here employee data can be added, updated, deleted. Employee can take their attendence using face recognition and the report will be generated automatically. It can also detect live image or fake image so that no fake attendence is marked.
 ![main page](https://github.com/shivanisin02/Employee-Attendence-Management/blob/master/screenshots/main_page.jpg?raw=true)
 

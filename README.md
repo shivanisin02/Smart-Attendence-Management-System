@@ -50,7 +50,7 @@ Run the Following commands on anaconda prompt
 ![main page](https://github.com/shivanisin02/Employee-Attendence-Management/blob/master/screenshots/main_page.jpg?raw=true)
 
 ### Training page
-#### For training of the data, 128 dimensional feature vectors will be extracted and Support vector Machine algorithm will be trained to create a face recognition model. 
+#### For training of the data, 128 dimensional feature vectors and label(facial embeddings) will be extracted and Support vector Machine algorithm will be trained to create a face recognition model. 
 ![training page](https://github.com/shivanisin02/Employee-Attendence-Management/blob/master/screenshots/training_page.jpg?raw=true)
 
 ### Employee Management page

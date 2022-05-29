@@ -8,7 +8,9 @@ It is capable to perform following task -
 
 * It takes Attendance of the employee by face recognition method and automatically generates report of every employee.
 * It automatically sends the Attendance report of employees to the manager and sends email to absentees individually.
-* It can detect the live faces or fake faces so that no spoofing can be attempted and fake Attendance is not marked.
+* This Application is capable of detecting the liveness of photo i.e., it can detect if the attendance is being marked in real time by the real person only and not through a photo so that no spoofing takes place and fake attendance is not marked.
+![image](https://user-images.githubusercontent.com/90530143/170859489-060d32b4-0476-4db3-9e52-a9c05db43151.png)
+
 ## Installation
 
 Run the Following commands on anaconda prompt

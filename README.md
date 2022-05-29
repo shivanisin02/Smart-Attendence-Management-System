@@ -50,7 +50,7 @@ Run the Following commands on anaconda prompt
 ![main page](https://github.com/shivanisin02/Employee-Attendence-Management/blob/master/screenshots/main_page.jpg?raw=true)
 
 ### Training page
-#### For training of the data, 128 dimensional vectors will be extracted and Support vector Machine algorithm will be trained to create a face recognition model. 
+#### For training of the data, 128 dimensional feature vectors will be extracted and Support vector Machine algorithm will be trained to create a face recognition model. 
 ![training page](https://github.com/shivanisin02/Employee-Attendence-Management/blob/master/screenshots/training_page.jpg?raw=true)
 
 ### Employee Management page
@@ -58,5 +58,5 @@ Run the Following commands on anaconda prompt
 ![emp_management page](https://github.com/shivanisin02/Employee-Attendence-Management/blob/master/screenshots/emp_manage_page.jpg?raw=true)
 
 ### Attendence Report page
-#### Here attendence will be marked and automatic email will be sent to absentees. We can search data by name or date and we can delete the data as well.
+#### Here attendence will be marked and automatic email will be sent to absent Employees. We can search data by name or date and we can delete the data as well.
 ![Report page](https://github.com/shivanisin02/Employee-Attendence-Management/blob/master/screenshots/report_page.jpg?raw=true)

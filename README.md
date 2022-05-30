@@ -11,6 +11,7 @@ It is capable to perform following task -
 * This Application is capable of detecting the liveness of photo i.e., it can detect if the attendance is being marked in real time by the real person only and not through a photo so that no spoofing takes place and fake attendance is not marked.
 ![image](https://user-images.githubusercontent.com/90530143/170859489-060d32b4-0476-4db3-9e52-a9c05db43151.png)
 
+Algorithms : Opencv Haar Cascade Algorihtm for face recognition, Support Vector Machine Algorithm for training of the data. 
 ## Installation
 
 Run the Following commands on anaconda prompt
